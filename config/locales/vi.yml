@@ -20,4 +20,4 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 vi:
-  hello: "Chào mày!"
+  hello: "Chào cờ hó <@%{user}>!"
