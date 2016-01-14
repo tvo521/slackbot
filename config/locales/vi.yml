@@ -21,3 +21,4 @@
 
 vi:
   hello: "Chào cờ hó <@%{user}>!"
+  locale_saved: "Ngôn ngữ đã lưu rồi đó cờ hó :D"

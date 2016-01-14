@@ -21,3 +21,4 @@
 
 en:
   hello: "Hello <@%{user}>"
+  locale_saved: "Your locale has been saved!"
