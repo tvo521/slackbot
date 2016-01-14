@@ -1,5 +1,7 @@
 class LanguageBot < SlackRubyBot::Bot
   command 'hello' do |client, data, match|
-    client.say(text: "hello <#{data.user}>!", channel: data.channel)
+    I18n.locale = :vi
+    text = I18n.t 'hello'
+    client.say(text: text, channel: data.channel)
   end
 end
